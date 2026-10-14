@@ -43,7 +43,7 @@
 // Console.WriteLine();
 // int age = 16;
 // double height = 1.44;
-// bool hasAdult = false;
+// bool hasAdult = true;
 
 // if ((age >= 14 && height >= 1.5) || (height < 1.5 && hasAdult))
 // {
@@ -105,29 +105,71 @@
 //     Console.WriteLine("Число нечётное.");
 // }
 
-Console.WriteLine();
-Console.Write("Введите оценку от 2 до 5: ");
-int grade = int.Parse(Console.ReadLine());
+// Console.WriteLine();
+// Console.Write("Введите оценку от 2 до 5: ");
+// int grade = int.Parse(Console.ReadLine());
 
-switch (grade)
-{
-    case 5:
-        Console.WriteLine("Отлично");
-        break;
+// switch (grade)
+// {
+//     case 5:
+//         Console.WriteLine("Отлично");
+//         break;
 
-    case 4:
-        Console.WriteLine("Хорошо");
-        break;
+//     case 4:
+//         Console.WriteLine("Хорошо");
+//         break;
 
-    case 3:
-        Console.WriteLine("Удовлетворительно");
-        break;
+//     case 3:
+//         Console.WriteLine("Удовлетворительно");
+//         break;
 
-    case 2:
-        Console.WriteLine("Неудовлетворительно");
-        break;
+//     case 2:
+//         Console.WriteLine("Неудовлетворительно");
+//         break;
 
-    default:
-        Console.WriteLine("Неверная оценка");
-        break;
-}
+//     default:
+//         Console.WriteLine("Неверная оценка");
+//         break;
+// }
+
+// Console.WriteLine();
+// Console.Write("Введите возраст пользователя: ");
+// int accessAge = int.Parse(Console.ReadLine()!);
+
+// if (accessAge >= 18)
+// {
+//     Console.WriteLine("Доступ разрешён");
+// }
+// else
+// {
+//     Console.WriteLine("Доступ запрещён");
+// }
+
+// Console.Write("Введите первую сторону треугольника: ");
+// double a = double.Parse(Console.ReadLine());
+
+// Console.Write("Введите вторую сторону треугольника: ");
+// double b = double.Parse(Console.ReadLine());
+
+// Console.Write("Введите третью сторону треугольника: ");
+// double c = double.Parse(Console.ReadLine());
+
+// if (a + b > c && a + c > b && b + c > a)
+// {
+//     if (a == b && b == c)
+//     {
+//         Console.WriteLine("Треугольник равносторонний");
+//     }
+//     else if (a == b || a == c || b == c)
+//     {
+//         Console.WriteLine("Треугольник равнобедренный");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Треугольник разносторонний");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Треугольник не существует");
+// }
